@@ -47,7 +47,23 @@ body{
     border-radius: 10px;
     color: rgba(10, 9, 9, 0.876);
     margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
+
+.book-container-top{
+    margin-left: 18px;
+    border-radius: 10px;
+}
+ .card{
+    padding: 15px;
+    width: 18rem;
+    width: 25%;
+    border-radius: 10px;
+    margin:100px;
+    vertical-align: top;
+} 
+
 .book-container h2{
     color: rgb(241, 76, 76);
 }
