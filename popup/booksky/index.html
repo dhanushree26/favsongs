@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favsongs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "navbar">
+        <h1>Favsongs</h1>
+    </div>
+    
+    <div class = "container">
+        <div class = "book-container">
+            <h2>Ennavendru solvadhamma</h2>
+            <h3>SPB</h3>
+            <p>
+                <q><b>Aval vaan megam
+                Kaanatha paal nilaa
+                Indha boologam
+                Paaratha thaen nila
+                </q></b>
+                
+                Ennavendru solvathamma
+                Vanji aval perazhagai
+                Solla mozhi illaiyamma
+                Konji varum thaer azhagai
+                
+                Anthi manjal nirathavalai
+                En nenjil nilaithavalai
+                Naan enendru sollveno
+                Athai eppadi solveno</p>
+                <button>Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add ur fav song</h2>
+        <form>
+            <input type="text" placeholder="Song Name" id="song-name-input">
+            <input type="text" placeholder="Sung By" id="sung-by-input">
+            <textarea placeholder="Fav Lyric" id=" fav-lyric-input"></textarea>
+            <button id="add-song">ADD</button>
+            <button id="close">Close</button>
+        </form>
+    </div>
+
+
+    <button class = "add-button" id="add-popup-button">+</button>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
