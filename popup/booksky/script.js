@@ -20,18 +20,18 @@ cancelpopup.addEventListener("click",function(event){
 
 
 var container = document.querySelector(".container")
-var addbook = document.getElementById("add-book")
-var booktitleinput = document.getElementById("book-title-input")
-var bookauthorinput = document.getElementById("book-author-input")
-var bookdescriptioninput = document.getElementById("book-description-input")
+var addsong = document.getElementById("add-song")
+var songnameinput = document.getElementById("song-name-input")
+var sungbyinput = document.getElementById("sung-by-input")
+var favlyricinput = document.getElementById("fav-lyric-input")
 
-addbook.addEventListener("click",function(event){
+addsong.addEventListener("click",function(event){
     event.preventDefault() 
     var div = document.createElement("div")
     div.setAttribute("class","book-container")
-    div.innerHTML=`<h2>${booktitleinput.value}</h2>
-    <h5>${bookauthorinput.value}</h5>
-    <p>${bookdescriptioninput.value}</p>
+    div.innerHTML=`<h2>${songnameinput.value}</h2>
+    <h3>${sungbyinput.value}</h3>
+    <p>${favlyricinput.value}</p>
     <button onclick="deletebook(event)">Delete</button>`
     container.append(div)
 })
