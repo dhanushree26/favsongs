@@ -12,6 +12,30 @@ body{
     padding: 10px;
 }
 
+.nav-link{
+    background-color: rgb(253, 121, 134) ;
+}
+
+.navbar-brand{
+    background-color: rgb(253, 121, 134);
+}
+
+.navbar-expand-lg navbar-light bg-light{
+    background-color: rgb(253, 121, 134);
+}
+.btn-outline-success{
+    background-color: rgb(253, 121, 134);
+    border-radius: 5px;
+}
+.form-control-me-2{
+    background-color: rgb(253, 121, 134);
+    border-radius: 5px;
+    margin:3px;
+}
+.navbar-collapse{
+    background-color: rgb(253, 121, 134);
+}
+
 .container{
     padding: 10px;
 }
